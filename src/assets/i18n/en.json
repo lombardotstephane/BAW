@@ -1,0 +1,12 @@
+{
+    "PATH":{
+        "PERSONALPAGE": "My page",
+        "ADMINISTRATION": "Admin"
+    },
+    "PERSONAL": {
+        "HELLO": "hello pers"
+    },
+    "ADMINISTRATION": {
+        "HELLO": "hello admin"
+    }
+}

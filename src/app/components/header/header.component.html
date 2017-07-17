@@ -1,0 +1,15 @@
+<div class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- NAVIGATION -->
+    <ul class="nav navbar-nav">
+      <li><a routerLink="/personalPage" routerLinkActive="active">{{'PATH.PERSONALPAGE' | translate}}</a></li>
+      <li><a routerLink="/administration" routerLinkActive="active">{{'PATH.ADMINISTRATION' | translate}}</a></li>
+    </ul>
+    <!-- LANGUAGES -->
+    <ul class="nav navbar-nav navbar-right">
+      <li [ngClass]="{'hidden':language ==='fr'}"><a href="" (click)="switchToLang('fr')">FR</a></li>
+      <li [ngClass]="{'hidden':language ==='nl'}"><a href="" (click)="switchToLang('nl')">NL</a></li>
+      <li [ngClass]="{'hidden':language ==='en'}"><a href="" (click)="switchToLang('en')">EN</a></li>
+    </ul>
+  </div>
+</div>
